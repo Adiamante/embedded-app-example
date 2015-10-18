@@ -14,6 +14,7 @@ group :assets do
 end
 
 group :development, :test do
+  gem "dotenv-rails"
   gem "thin"
   gem "less-rails-bootstrap"
   gem "therubyracer", platforms: :ruby
